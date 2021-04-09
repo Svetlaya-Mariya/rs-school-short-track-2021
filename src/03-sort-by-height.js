@@ -20,7 +20,6 @@ function sortByHeight(arr) {
   const calcNum = function(a, b) {
     return a - b;
   };
-  
   newArr.sort(calcNum);
   for (let i = 0; i < arr1.length; i++) {
     if (arr1[i] !== -1) {
